@@ -42,7 +42,7 @@ funcion5 n = (n, triplicar n)
 
 -- Consigna 6
 funcion6 :: Integer -> Integer -> [(Integer, Integer)]
-funcion6 _ 0 = []
+funcion6 _ cant | cant <= 0 = []
 funcion6 n cant = (n, triplicar n) : funcion6 (triplicar n) (cant - 1)
 
 
