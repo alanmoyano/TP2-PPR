@@ -1,9 +1,9 @@
+-- Funciones de uso general
 duplicar :: Integer -> Integer
 duplicar x = 2 * x
 
 triplicar :: Integer -> Integer
 triplicar x = 3 * x
-
 
 -- Consigna 1
 es_vocal :: Char -> Bool
@@ -39,20 +39,7 @@ funcion4 (x:xs) car cant | es_vocal car = duplicar x : funcion4 xs car (cant - 1
 funcion5 :: Integer -> (Integer, Integer)
 funcion5 n = (n, triplicar n)
 
-
 -- Consigna 6
 funcion6 :: Integer -> Integer -> [(Integer, Integer)]
 funcion6 _ cant | cant <= 0 = []
 funcion6 n cant = (n, triplicar n) : funcion6 (triplicar n) (cant - 1)
-
-
-
-
-
-
-
-
-
-
-
-
