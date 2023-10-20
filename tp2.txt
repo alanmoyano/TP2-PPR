@@ -1,77 +1,77 @@
 # Consigna 1:
 
-Main> es_vocal 'a'
+Main> funcion1 'a'
 True
-Main> es_vocal '2'
+Main> funcion1 '2'
 False
-Main> es_digito 'a'
+Main> funcion2 'a'
 False
-Main> es_digito 'b'
+Main> funcion2 'b'
 False
-Main> es_vocal 'b'
+Main> funcion1 'b'
 False
-Main> es_digito '1'
+Main> funcion2 '1'
 True
 
 # Consigna 2:
 
-Main> funcion2 12 'a'
+Main> funcion3 12 'a'
 24
-Main> funcion2 12 'b'
+Main> funcion3 12 'b'
 12
-Main> funcion2 6 '2'
+Main> funcion3 6 '2'
 18
-Main> funcion2 0 'á'
+Main> funcion3 0 'á'
 0
-Main> funcion2 2 'e'
+Main> funcion3 2 'e'
 4
 
 # Consigna 3:
 
-Main> funcion3 [10,12,9,3,4,1] 'a'
+Main> funcion4 [10,12,9,3,4,1] 'a'
 [20,24,18,6,8,2]
-Main> funcion3 [10,12,9,3,4,1] 'b'
+Main> funcion4 [10,12,9,3,4,1] 'b'
 [10,12,9,3,4,1]
-Main> funcion3 [10,12,9,3,4,1] '2'
+Main> funcion4 [10,12,9,3,4,1] '2'
 [30,36,27,9,12,3]
-Main>  funcion3 [1,2,3] 'á'
+Main>  funcion4 [1,2,3] 'á'
 [1,2,3]
-Main> funcion3 [1,2,3] 'e'
+Main> funcion4 [1,2,3] 'e'
 [2,4,6]
 
 # Consigna 4:
 
-Main> funcion4 [10,12,9,3,4,1] 'a' 3
+Main> funcion5 [10,12,9,3,4,1] 'a' 3
 [20,24,18]
-Main> funcion4 [10,12,9,3,4,1] 'b' 2
+Main> funcion5 [10,12,9,3,4,1] 'b' 2
 [10,12]
-Main> funcion4 [10,12,9,3,4,1] '2' 10
+Main> funcion5 [10,12,9,3,4,1] '2' 10
 [30,36,27,9,12,3]
-Main> funcion4 [1,2,3] 'á' 1
+Main> funcion5 [1,2,3] 'á' 1
 [1]
-Main> funcion4 [1,2,3] 'e' 0
+Main> funcion5 [1,2,3] 'e' 0
 []
 
 # Consigna 5:
 
-Main> funcion5 2
+Main> funcion6 2
 (2,6)
-Main> funcion5 3
+Main> funcion6 3
 (3,9)
-Main> funcion5 0
+Main> funcion6 0
 (0,0)
-Main> funcion5 10
+Main> funcion6 10
 (10,30)
 
 # Consigna 6:
 
-Main> funcion6 2 3
+Main> funcion7 2 3
 [(2,6),(6,18),(18,54)]
-Main> funcion6 2 0
+Main> funcion7 2 0
 []
-Main> funcion6 3 (-1)
+Main> funcion7 3 (-1)
 []
-Main> funcion6 0 2
+Main> funcion7 0 2
 [(0,0),(0,0)]
-Main> funcion6 10 5
+Main> funcion7 10 5
 [(10,30),(30,90),(90,270),(270,810),(810,2430)]
